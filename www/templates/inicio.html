@@ -1,0 +1,81 @@
+<ion-view title="Inicio">
+  <div class="bar bar-subheader" ng-show="loading">
+    {{show()}}
+    <h2 class="title" ng-show="mostrar">Probando conexión...</h2>
+  </div>
+
+  <ion-content ng-show="category">
+    <div class="row">
+      <div class="col-50" style="padding: 2%" ng-click="go('bebidas')">
+        <div class="">
+          <div class="item item-image">
+            <img src="../img/comida.jpg">
+          </div>
+          <a class="item">Bebidas</a>
+        </div>
+      </div>
+      <div class="col-50" style="padding: 2%" ng-click="go('platofuerte')">
+        <div class="">
+          <div class="item item-image">
+            <img src="../img/comida.jpg">
+          </div>
+          <a class="item">Plato Fuerte</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-50" style="padding: 2%" ng-click="go('ensaladas')">
+        <div class="">
+          <div class="item item-image">
+            <img src="../img/comida.jpg">
+          </div>
+          <a class="item">Ensaladas</a>
+        </div>
+      </div>
+      <div class="col-50" style="padding: 2%" ng-click="go('postres')">
+        <div class="">
+          <div class="item item-image">
+            <img src="../img/comida.jpg">
+          </div>
+          <a class="item">Postres</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-50" style="padding: 2%" ng-click="go('ensaladas')">
+        <div class="">
+          <div class="item item-image">
+            <img src="../img/comida.jpg">
+          </div>
+          <a class="item">Ensaladas</a>
+        </div>
+      </div>
+      <div class="col-50" style="padding: 2%" ng-click="go('postres')">
+        <div class="">
+          <div class="item item-image">
+            <img src="../img/comida.jpg">
+          </div>
+          <a class="item">Postres</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-50" style="padding: 2%" ng-click="go('ensaladas')">
+        <div class="">
+          <div class="item item-image">
+            <img src="../img/comida.jpg">
+          </div>
+          <a class="item">Ensaladas</a>
+        </div>
+      </div>
+      <div class="col-50" style="padding: 2%" ng-click="go('postres')">
+        <div class="">
+          <div class="item item-image">
+            <img src="../img/comida.jpg">
+          </div>
+          <a class="item">Postres</a>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
